@@ -2,6 +2,10 @@ package handshake;
 
 import java.util.concurrent.Semaphore;
 
+/**
+ * @author kurt
+ */
+
 public class ThreadBType extends Thread {
     Semaphore AReady;
     Semaphore BReady;
